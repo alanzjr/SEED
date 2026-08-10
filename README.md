@@ -4,7 +4,7 @@ This repository contains the open-source implementation accompanying the manuscr
 
 ## Computer Code Availability
 
-- **Name of code**: SEED (SVP-enhanced earthquake forecasting demo)
+- **Name of code**: SEED
 - **Developer / contact**: Jiarui Zhang
 - **Year first available**: 2026
 - **Hardware required**: Standard workstation; GPU optional for training
