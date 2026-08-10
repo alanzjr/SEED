@@ -125,7 +125,7 @@ See [docs/USER_GUIDE.md](docs/USER_GUIDE.md) for inputs/outputs/parameters and [
 - Catalogs are provided as CSV files with columns `time,mag,latitude,longitude,depth`.
 - Full dense spatial grids used for publication figures are large; this repository ships a **small sample** under `results/samples/` so reviewers can exercise the plotting code. To regenerate a full grid, run prediction at each `(lat, lon)` of interest and write `statistics_lat_{lat}_lon_{lon}.csv` files with columns `Window_Index,Min_Probability,Max_Probability,Avg_Probability`.
 
-##Catalog enhancement
+## Catalog enhancement
 
 The earthquake catalog enhancement used in this study was performed using the Earthquake Rescaled Aftershock Seismicity (ERAS) model developed by Rundle et al.
 The ERAS implementation is publicly available from Zenodo: Rundle, J. (2024). Earthquake_Rescaled_Aftershock_Seismicity_ERAS
