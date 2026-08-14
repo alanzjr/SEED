@@ -99,19 +99,17 @@ Expected outputs in `outputs/<event>/`:
 
 1. **(Optional) Prepare training features** from a catalog  
    `python scripts/prepare_train_features.py --catalog data/catalogs/2000-2013.csv`
-2. **(Optional) Train**  
-   `python scripts/train.py --train-dir data/processed --model-number 5`
-3. **Use a shipped test feature CSV** under `data/samples/`  
+2. **Use a shipped test feature CSV** under `data/samples/`  
    e.g. `test_jiuzhaigou.csv`, `test_wenchuan.csv`, …
-4. **Predict** with the matching ensemble under `models/<event>/`  
+3. **Predict** with the matching ensemble under `models/<event>/`  
    `python scripts/predict.py --event wenchuan`
-5. **Plot**  
+4. **Plot**  
    `python scripts/plot_probability.py --event wenchuan`
-6. **Optional SVP map**  
+5. **Optional SVP map**  
    `python scripts/plot_prior_map.py`
-7. **Optional spatial demo** (uses the few CSVs under `results/samples/`; overlays faults from `data/faults/` by default)  
+6. **Optional spatial demo** (uses the few CSVs under `results/samples/`; overlays faults from `data/faults/` by default)  
    `python scripts/plot_space_heatmaps.py --max-days 5`
-8. **Optional HN cosine similarity** (e.g. Wenchuan + Jiuzhaigou)  
+7. **Optional HN cosine similarity** (e.g. Wenchuan + Jiuzhaigou)  
    ```bash
    python scripts/predict.py --event wenchuan --no-contribution-plot
    python scripts/predict.py --event jiuzhaigou --no-contribution-plot
