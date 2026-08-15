@@ -5,7 +5,7 @@ This repository contains the open-source implementation accompanying the manuscr
 ## Computer Code Availability
 
 - **Name of code**: SEED
-- **Developer / contact**: Jiarui Zhang
+- **Developer / contact**: Zining Yu
 - **Year first available**: 2026
 - **Hardware required**: Standard workstation; GPU optional for training
 - **Software required**: Python 3.9+ (tested conceptually with PyTorch 1.13+/2.x)
